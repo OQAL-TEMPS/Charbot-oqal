@@ -72,4 +72,4 @@ _G.BotConfig = {
 	},
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0TEMPS/CharBot/main/CharBotBasic.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OQAL-TEMPS/Charbot-oqal/main/CharBotBasic.lua"))()
