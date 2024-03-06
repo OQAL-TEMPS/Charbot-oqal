@@ -7,7 +7,7 @@ CHAR-BOT ]=]
 _G.BotConfig = {
 	["General Settings"] = {
 		-- // -- // -- // -- 
-		["Owner"] = "00temps",
+		["Owner"] = "USERNAME",
 		-- // -- // -- // -- 
 		["Approval Words"] = {
 			"yes","yea","sure","yeah","true","y","ye","confirm" -- Words that the bot should take as "Yes".
@@ -54,7 +54,9 @@ _G.BotConfig = {
 		ChatLoadingOutputs = true, -- Bot will chat loading messages in the roblox chat.
 		ChatStartupGreeting = true, -- Bot will greet the player on startup.
 		ChatErrorLogs = true, -- Bot chat error logs when errors are caught. (Only works if error logging is enabled)
-		ChatPrefix = "[💬] "
+		ChatPrefix = "[💬] ",
+        	PromptPrefix = "[❓] ",
+       	 	AvoidFiltering = true
 
 	},
 	-- // -- // -- // -- 
